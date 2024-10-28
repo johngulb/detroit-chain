@@ -49,3 +49,9 @@ curl https://get.ignite.com/username/detroit@latest! | sudo bash
 - [Ignite CLI docs](https://docs.ignite.com)
 - [Cosmos SDK docs](https://docs.cosmos.network)
 - [Developer Chat](https://discord.gg/ignite)
+
+## Contract Commands
+
+```
+detroitd tx wasm instantiate 34BDF6D2EC51EBCD4D2786D64C1D55E94ED26F06C412F4D16DF7458D0C0C587A '{"some_field": "value"}' --from alice --chain-id detroit --label "My CW Contract"
+```
